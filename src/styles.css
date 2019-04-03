@@ -1,1 +1,7 @@
 /* Add application styles & imports to this file! */
+.main a{
+  color:black;
+}
+li{
+  display:list-item;
+}
