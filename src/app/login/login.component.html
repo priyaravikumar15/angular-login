@@ -1,7 +1,18 @@
-<div class="">
-  <ul>
-    <li><a routerLink="userlogin">Login</a></li>
-    <li><a routerLink="newregister">New Register</a></li>
-  </ul>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<div class="jumbotron">
+  <div class="row" style="text-align:center;">
+    <div class="col-md-6">
+      <a routerLink="userlogin">Login</a>
+      </div>
+    <div class="col-md-6">
+      <a routerLink="newregister">New Register</a>
+      </div>
+    </div>
+  
+  <div class="row">
+    <div class="col-md-12">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
 </div>
-<router-outlet></router-outlet>
+
